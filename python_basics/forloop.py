@@ -15,3 +15,13 @@ for x in range(0,360,30):
 
 for i in range(10,0,-1):
     print(i)
+
+#assignment 3
+for x in range(-180,0,+180):
+    print(math.tan(x))
+
+for x in range(-180,0,+180):
+    print(math.sin(x))
+
+for x in range(-180,0,+180):
+    print(math.cos(x))

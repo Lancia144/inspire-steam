@@ -28,3 +28,5 @@ print(math.sqrt(144))
 
 print(25**2) # 25 squared
 print(3**3)
+
+#assignment 2
