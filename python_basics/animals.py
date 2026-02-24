@@ -17,10 +17,10 @@ class Animal:
 
 class dog(Animal):
     def __init__(self,color, bark, breed, weight):
-        super().__init__(breed, weight, "meat")
+        super().__init__(species, weight, food)
         self.breed = breed
         self.color = color
-        self.bark = bark
+        self.height = height
 
     def grow(self,weight):
         weight = 1.1 * weight
@@ -41,3 +41,4 @@ class  Horse(Animal):
 
     def neigh(self,neigh):
         print(f"the horse neighs {neigh}")
+
